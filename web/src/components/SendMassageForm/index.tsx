@@ -2,7 +2,7 @@ import { useContext, useState, FormEvent } from 'react';
 import { VscGithubInverted, VscSignOut } from 'react-icons/vsc';
 import { AuthContext } from '../../contexts/auth';
 import { api } from '../../services/api';
-import styles from './styles.modules.scss';
+import styles from './styles.module.scss';
 
 export function SendMessageForm() {
 
